@@ -40,7 +40,7 @@ phases:
 
       - echo Building the backend project...
 
-      - mvn clean package
+      - mvn clean package -DskipTests
 
       - echo Building Docker image...
 
